@@ -16,11 +16,7 @@ For the polling system itself, I used a custom react hook which is located in th
 
 The ```GraphIntervalContainer``` component is where the graph's metric are created via the setInterval hook. I decided to place every ```Graph``` component in a container component because it keeps the ```Graph``` component stateless and subsequently more easily reusable (this also apples to the ```Card``` component as well because now it is only displaying its children components as opposed to passing down props or handling any data processes). 
 
-I would also like to note two props which the ```GraphIntervalContainer``` receives which allows the metrics displayed to be more customizable: initialData and createNewData. The initialData variable is the data which the graph will display upon its initial render. The createNewData variable is a function which appends new data to the current data stored in the state of the ```GraphIntervalContainer```. 
-
-### Another possible implementation and why I didn't do it
-
-I looked into implementing a custom react hook, setIntervalData for example, which takes initialData & createNewData as arguments and then returns data which is created via the setInterval hook. This eliminates the need for the ```GraphIntervalContainer``` and instead places all the metrics for each graph in one container which then passes that data to their individual graphs. However, this implementation requires that every ```Graph``` component is memoized, and also the parent container component can become very messy with the code needed to keep track of multiple graph's metrics. Therefore, I decided to implement the ```GraphIntervalComponent``` which keeps this logic isolated to one place.  
+I would also like to note two props which the ```GraphIntervalContainer``` receives which allows the metrics displayed to be more customizable: initialData and createNewData. The initialData variable is the data which the graph will display upon its initial render. The createNewData variable is a function which appends new data to the current data stored in the state of the ```GraphIntervalContainer```.  
 
 ## Directory Layout:
 
