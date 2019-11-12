@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tapcart/static/css/main.34fcb005.chunk.css",
+    "main.js": "/tapcart/static/js/main.f0ba751b.chunk.js",
+    "main.js.map": "/tapcart/static/js/main.f0ba751b.chunk.js.map",
+    "runtime-main.js": "/tapcart/static/js/runtime-main.49ec0c2b.js",
+    "runtime-main.js.map": "/tapcart/static/js/runtime-main.49ec0c2b.js.map",
+    "static/js/2.ff30e051.chunk.js": "/tapcart/static/js/2.ff30e051.chunk.js",
+    "static/js/2.ff30e051.chunk.js.map": "/tapcart/static/js/2.ff30e051.chunk.js.map",
+    "index.html": "/tapcart/index.html",
+    "precache-manifest.36293f0a7a74cfa88210df56cd35c774.js": "/tapcart/precache-manifest.36293f0a7a74cfa88210df56cd35c774.js",
+    "service-worker.js": "/tapcart/service-worker.js",
+    "static/css/main.34fcb005.chunk.css.map": "/tapcart/static/css/main.34fcb005.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49ec0c2b.js",
+    "static/js/2.ff30e051.chunk.js",
+    "static/css/main.34fcb005.chunk.css",
+    "static/js/main.f0ba751b.chunk.js"
+  ]
+}
